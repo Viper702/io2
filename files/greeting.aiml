@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0" language="ru_RU">
+
+    <!-- Greeting -->
+    <category><pattern>ÃÂÃÂ ÃÂÃÂÃÂÃÂ¢</pattern>
+        <template>
+            <random>
+                <li>ÃÂÃÂ´ÃÂÃÂ°ÃÂ²ÃÂÃÂÃÂ²ÃÂÃÂ¹</li>
+                <li>ÃÂÃÂ´ÃÂÃÂ°ÃÂ²ÃÂÃÂÃÂ²ÃÂÃÂ¹ÃÂÃÂµ</li>
+                <li>ÃÂÃÂ¾ÃÂµ ÃÂ¿ÃÂ¾ÃÂÃÂÃÂµÃÂ½ÃÂ¸ÃÂµ!</li>
+                <li>ÃÂÃÂ´ÃÂ°ÃÂÃÂ¾ÃÂ²ÃÂ°</li>
+                <li>ÃÂÃÂÃÂ¸ÃÂ²ÃÂµÃÂÃÂÃÂÃÂ²ÃÂÃÂ</li>
+                <li>ÃÂÃÂÃÂ¸ÃÂ²ÃÂµÃÂ</li>
+                <li>ÃÂÃÂ¾ÃÂ±ÃÂÃÂ¾ÃÂ³ÃÂ¾ ÃÂ²ÃÂÃÂµÃÂ¼ÃÂµÃÂ½ÃÂ¸ ÃÂÃÂÃÂÃÂ¾ÃÂº</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ ÃÂÃÂ ÃÂÃÂÃÂÃÂ¢ ^</pattern>
+        <template>
+            <srai>ÃÂÃÂ ÃÂÃÂÃÂÃÂ¢</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ÃÂÃÂÃÂ ÃÂÃÂÃÂ¡ÃÂ¢ÃÂÃÂ£ÃÂ</pattern>
+        <template>
+            <srai>ÃÂÃÂ ÃÂÃÂÃÂÃÂ¢</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ ÃÂÃÂÃÂ ÃÂÃÂÃÂ¡ÃÂ¢ÃÂÃÂ£ÃÂ ^</pattern>
+        <template>
+            <srai>ÃÂÃÂ ÃÂÃÂÃÂÃÂ¢</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ÃÂÃÂÃÂ ÃÂÃÂÃÂÃÂ</pattern>
+        <template>ÃÂ¾ÃÂÃÂ»ÃÂ¸ÃÂÃÂ½ÃÂ¾</template>
+    </category>
+</aiml>
